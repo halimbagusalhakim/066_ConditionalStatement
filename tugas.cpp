@@ -11,7 +11,7 @@ int main()
 
     nRerata = (nNilMtk + nNilFisika)/2;
     
-    if (nRerata > 60 || nNilFisika >= 70){
+    if (nRerata > 60 || nNilMtk > 70){
         status = "lulus";
     }
    
